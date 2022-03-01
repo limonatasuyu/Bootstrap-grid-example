@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://hallo89.github.io/Slider89/slider89.css">
+
+
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+	<script src="https://hallo89.github.io/Slider89/slider89.js"></script>
+	<script src="script.js"></script>
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="add_row_button col"><button>Add a row</button></div>
+				<div class="add_column_button col"><button>Add a column</button></div>
+			</div>
+			<div class="row">
+				<div class="delete_row_button col"><button>Delete this row</button></div>
+				<div class="delete_column_button col"><button>Delete this column</button></div>
+			</div>
+		</div>
+	</div>
+		<br><br>
+		<h5>Column Type</h5>
+		<div class="container">
+			<div class="column_types row">
+				<div class="col">
+					<input type="radio" id="None_type" name="col_type" value="" onclick="change_column_type();">
+					<label for="none_type">None</label>
+				</div>
+				<div class="col">
+					<input type="radio" id="sm_type" name="col_type" value="-sm" onclick="change_column_type();">
+					<label for="sm_type">Small (-sm)</label>
+				</div>
+				<div class="col">
+					<input type="radio" id="md_type" name="col_type" value="-md" onclick="change_column_type();">
+					<label for="md_type">Medium (-md)</label>
+				</div>
+				<div class="col">
+					<input type="radio" id="lg_type" name="col_type" value="-lg" onclick="change_column_type();">
+					<label for="lg_type">Large (-lg)</label>
+				</div>
+				<div class="col">
+					<input type="radio" id="xl_type" name="col_type" value="-xl" onclick="change_column_type();">
+					<label for="xl_type">XLarge (-xl)</label>
+				</div>
+			</div>
+		</div>
+		<br>
+		<h5>Column Width: </h5>
+		<div class="content">
+			<div id="col_width_slider"></div>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="result_visual">
+	<div class="container">
+	</div>
+	</div>
+	</body>
+</html>

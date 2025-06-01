@@ -8,5 +8,3 @@ You can:
 - Set column types like `-sm`, `-md`, etc.
 
 Built with plain HTML, CSS, JavaScript, jQuery, and Bootstrap 4.
-
-> ⚠️ Old project — not maintained. Just keeping it for reference.

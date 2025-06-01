@@ -1,6 +1,12 @@
-# Bootstrap-grid-example
+# Bootstrap Grid Playground
 
-Small web app for understanding bootstrap grid system
+A small experiment from a few years ago to interactively add/remove Bootstrap rows and columns.
 
+You can:
+- Add/delete rows and columns
+- Adjust column width with a slider
+- Set column types like `-sm`, `-md`, etc.
 
-You can see it from here: https://unerasable-technici.000webhostapp.com/index.html
+Built with plain HTML, CSS, JavaScript, jQuery, and Bootstrap 4.
+
+> ⚠️ Old project — not maintained. Just keeping it for reference.
